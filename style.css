@@ -25,14 +25,21 @@
 .discover{
     margin: 40px 10px;
     gap: 25px;
+    width: 1200px;
 }
 .discover-d{
     
     gap: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    width: 1200px;
+    
 }
 .discover-dd{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 40px 20px;
+}
+.discover-dd-right{
     display: flex;
     flex-direction: column;
     gap: 15px;
